@@ -15,12 +15,11 @@
 #aboutBody{
     background-color: grey;
 }
-#productsBody{
-    background-color: grey;
-}
+
+/* FOOTERS */
 
 
- .footer{
+.footer{
     bottom: 0;
     /* position: absolute; */
     background-color: lightgray;
@@ -39,7 +38,7 @@
     height: 80px;
     align-content: center;
     position: static;
-
+    
 }
 .adminFooter{
     bottom: 0;
@@ -51,26 +50,50 @@
     position: fixed;
 }
 
+/* About */
+
 .aboutMain{
     height: 100%;
 }
- span{
+span{
     text-align: center;
- }
- .logo{
+}
+.logo{
     height: 50px;
- }
+}
 
 /* Products Styling */
 
-.products{
+#itemImage img{
     height: 250px;
-    width: 250px;
+    object-fit: cover;
 }
 #products{
     margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+    margin-bottom: 17%;
+}
+#productsBody{
+    /* background: scroll ; */
+    background-image: url(https://sihlandlo-schillo.github.io/HOSTEDIMAGES/images/InStore.jpg);
+    background-size: cover 100vh;
+
+    
+}
+.productsFooter{
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    align-content: center;
+}
+
+.prods{
+    height: 60vh;
 }
 
 /* HOME */
@@ -86,6 +109,18 @@
     margin-top: 50px;
 }
 
+/* CONTACTS */
+#banner{
+    height: 350px
+}
+.icons{
+    height: 50px;
+    width: 50px;
+}
+.contacts{
+    height: 100vh;
+}
+
 /* CART styling */
 
 .cartProds{
@@ -94,6 +129,9 @@
 
 table, tr, td,th {
     border: 1px double black;
+    /* display: tabl */
     text-align: center;
+    justify-content: space-around;
+    align-content: center;
 }
 
