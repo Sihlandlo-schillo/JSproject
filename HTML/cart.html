@@ -22,7 +22,7 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+                  <a class="nav-link" href="/index.html">HOME</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/HTML/products.html">PRODUCTS</a>
@@ -37,7 +37,7 @@
                   <a class="nav-link" href="/HTML/contact.html">CONTACT US</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/HTML/cart.html">CHECKOUT</a>
+                  <a class="nav-link active" aria-current="page" href="/HTML/cart.html">CHECKOUT</a>
                 </li>
                
               </ul>
@@ -52,11 +52,11 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Image</th>
-                    <th class="price">Price (R)</th>
                     <th>Category</th>
+                    <th class="price">Price (R)</th>
                     <th>Quantity</th>
                     <th>Total</th>
+                    <th>Remove</th>
                 </tr>
             </thead>
             <tbody>
@@ -64,15 +64,16 @@
             </tbody>
             <tfoot >
                 <tr>
-                    <th colspan="4">Total</th>
-                    <td total colspan="5"></td>
+                    <th colspan="2">Total</th>
+                    <th></th>
+                    <td total colspan=""></td>
                     
                 </tr>
             </tfoot>
         </table>
-        <button>Total Cost</button> = <span></span>
+        <button id="total">Total Cost</button> = <span></span>
     </main>
-    <footer></footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="/script/cart.js"></script>
