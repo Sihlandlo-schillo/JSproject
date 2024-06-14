@@ -104,6 +104,13 @@ span{
 
 /* HOME */
 
+.welcome{
+    background-color: aliceblue;
+}
+.homeDiv{
+    height: 115vh;
+}
+
 .homeImage{
     height: 295px;
     width: 450px;
@@ -287,7 +294,6 @@ em:after{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-
 }
 
 .cartProds{
